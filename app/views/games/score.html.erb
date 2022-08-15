@@ -1,0 +1,13 @@
+<%=
+  if @include
+    if @english_word
+      "Congratulations! #{@words} is a valid English word!"
+    else
+      "Sorry but #{@words} does not seem to be a valid English word..."
+    end
+    else
+    "Sorry but #{@words} can't be built out of #{@letters} "
+  end
+%>
+<br>
+<%= link_to "Play again", new_path %>

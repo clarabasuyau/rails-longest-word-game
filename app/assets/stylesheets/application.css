@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ .letters {
+  display: flex;
+ }
+
+ .letter {
+  width: 8vh;
+  height: 8vh;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 10px;
+  border: solid 1px blue;
+ }
